@@ -8,3 +8,4 @@ the above picture is used to create an account.
 the above pictures helps to add the new contacts and to view saved contacts.
 I have used tom cat server to run the application.
 Kindly use the tom cat server to run the application.
+Using the tom cat server i have connected it to data base.
