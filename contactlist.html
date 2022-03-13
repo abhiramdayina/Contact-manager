@@ -1,0 +1,194 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+   <title>Contact list</title>    
+<!-- -----------------------CSS code starts------------------ -->
+<style type="text/css">
+body{  
+   margin: 0;  
+   padding: 0;  
+   background-color: #fff;
+   font-family: 'Arial';  
+}  
+.contact{  
+      width: 25%;  
+      overflow: hidden;  
+      margin: auto; 
+      /*margin: 20 0 0 450px; */ 
+      padding: 4%;  
+      background: white;  
+      border: 3.5px solid #1B4F72;
+      border-radius: 5% ;  
+}  
+.contactlist{  
+      width: 60%;  
+      overflow: hidden;  
+      margin: auto; 
+      /*margin: 20 0 0 450px; */ 
+      padding: 4%;  
+      background: white;  
+      border: 3.5px solid #1B4F72;
+      border-radius: 5% ;  
+}  
+h2{    
+   color: #1B4F72;    
+}  
+label{  
+   color: #1B4F72;  
+   font-size: 12px;  
+}  
+#Uname{  
+   width: 97%;  
+   height: 30px;  
+   margin-top: 4px;
+   border-radius: 8px;  
+   padding-left: 2%;
+   border: 3px solid #1B4F72;
+   border-radius: 10px;   
+}  
+#Fname{  
+   width: 97%;  
+   height: 30px;  
+   margin-top: 4px;
+   border-radius: 8px;  
+   padding-left: 2%;
+   border: 3px solid #1B4F72;
+   border-radius: 10px;    
+}  
+#mail{  
+   width: 97%;  
+   height: 30px;  
+   margin-top: 4px;
+   border-radius: 8px;  
+   padding-left: 2%;
+   border: 3px solid #1B4F72;
+   border-radius: 10px;    
+} 
+#Pass{  
+   width: 97%;  
+   height: 30px;  
+   margin-top: 4px;
+   border-radius: 8px;  
+   padding-left: 2%;  
+   border: 3px solid #1B4F72;
+   border-radius: 10px;
+   
+} 
+#rePass{  
+   width: 97%;  
+   height: 30px;  
+   margin-top: 4px;
+   border-radius: 8px;  
+   padding-left: 2%;  
+   border: 3px solid #1B4F72;
+   border-radius: 10px;
+   
+}  
+#adduser{  
+   width: 35%; 
+   height: 35px;  
+   border: none;  
+   border-radius: 10px;  
+   color: white;  
+   float: right;
+   margin-right: 0%;
+   background-color: #1B4F72;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   background-color: white;
+   color: black; 
+  border: 3px solid #1B4F72;
+}  
+a{
+   color: #1B4F72;
+}
+table {
+  font-family: arial, sans-serif;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+
+td, th {
+  border: 2px solid #1B4F72;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+ 
+</style>
+
+<!-- -------------------CSS code ends---------------- -->
+<!-- <link rel="stylesheet" type="text/css" href="style.css">  -->  
+</head> 
+<!-- ------------------HTML body starts---------------- -->
+<body>    
+   <br><br>
+<!-- -----------------Login form (box) starts--------------- -->  
+   <div class="contact">    
+      <form id="contact" method="get" action="contact.php">  
+         <h2><b>Add contact</b></h2>     
+         <label>Name</label>    
+         <input type="text" name="mail" id="mail" placeholder="Name">    
+         <br><br>       
+         <label>Phone number</label>  
+         <input type="number" name="Uname" id="Uname" placeholder="Phone number">    
+         <br><br>
+         <label>E-Mail</label>    
+         <input type="text" name="Pass" id="Pass" placeholder="E=Mail">    
+         <br><br>      
+         <a href="#">
+         <input class="button button1" type="button" name="adduser" id="adduser" value="Add contact">   
+         </a>       <br>
+            
+      </form>     
+   </div>  <br><br>
+<!-- -----------------Login form (box) ends----------------- -->  
+
+   <div class="contactlist">    
+      <form id="contactlist" method="get" action="contactlist.php">  
+         <h2><b>Saved Contacts</b></h2>     
+         <table>
+  <tr>
+    <th>Name</th>
+    <th>Phone number</th>
+    <th>E-Mail id</th>
+  </tr>
+  <tr>
+    <td>Abhiram Dayina</td>
+    <td>9908***119</td>
+    <td>abhiramdayina@gmail.com</td>
+  </tr>
+
+  <tr>
+    <td>Surya Narayana</td>
+    <td>9849***137</td>
+    <td>suryanarayana@gmail.com</td>
+  </tr>
+
+  <tr>
+    <td>Anantha lakshmi</td>
+    <td>9748***859</td>
+    <td>ananthalakshmi@gmail.com</td>
+  </tr>
+
+  <tr>
+    <td>Lakshmi Sailaja</td>
+    <td>9703***080</td>
+    <td>lakshmisailaja@gmail.com</td>
+  </tr>
+
+  
+  
+</table>
+      </form>     
+   </div>  
+<br><br>
+</body>    
+</html>  
