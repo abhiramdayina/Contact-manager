@@ -1,0 +1,2 @@
+create table signup(email varchar2(30) not null, password varchar2(20) not null, secret number(4));
+create table contacts(name varchar2(20)not null ,phoneno varchar2(15) not null, email varchar2(30) not null);
